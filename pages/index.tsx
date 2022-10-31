@@ -72,7 +72,7 @@ const Home: NextPage = () => {
         </div>
       </div>
 
-      <Marquee gradient={false} className={styles.marquee} speed={300}>
+      <Marquee gradient={false} className={styles.marquee} speed={100}>
         <p>
           STED SEÑALEMELO - / - 1915 - / - INVISIBLE - / - PESCADO RABIOSO - / -
           LA MÁQUINA DE HACER PÁJAROS - / - SERÚ GIRÁN - / - NAFTA - / - PAZ

@@ -209,7 +209,8 @@
 
 @media (max-width: 949px) {
   .descriptionContainer {
-    height: 100vh;
+    height: fit-content;
+    min-height: 100vh;
   }
 }
 @media (max-width: 1159px) {
@@ -262,6 +263,12 @@
   }
 }
 @media (max-width: 527px) {
+  .descriptionContainer {
+    .description {
+      font-size: 1.8rem;
+    }
+  }
+
   .otherContainer {
     .otherContainerInner {
       .titleBox {
