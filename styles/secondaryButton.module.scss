@@ -1,0 +1,15 @@
+.button {
+  width: fit-content;
+  text-align: center;
+  cursor: pointer;
+  background: transparent;
+
+  &:hover {
+    color: #fff200;
+  }
+
+  .buttonText {
+    font-weight: 500;
+    transition: color 0.5s ease;
+  }
+}
